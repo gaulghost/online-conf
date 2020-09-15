@@ -2,7 +2,7 @@
  /* jQuery Pre loader
   -----------------------------------------------*/
 $(window).load(function(){
-    $('.preloader').fadeOut(1000); // set duration in brackets    
+    $('.preloader').fadeOut(1000); // set duration in brackets
 });
 
 
@@ -18,7 +18,7 @@ $(document).ready(function() {
   /* Smoothscroll js
   -----------------------------------------------*/
     $(function() {
-        $('.navbar-default a').bind('click', function(event) {
+        $('.navbar-default a, #home a').bind('click', function(event) {
             var $anchor = $(this);
             $('html, body').stop().animate({
                 scrollTop: $($anchor.attr('href')).offset().top - 49
@@ -58,7 +58,7 @@ $(document).ready(function() {
           itemsMobile : [479,1],
       });
     });
-    
+
 
     /* Back to Top
     -----------------------------------------------*/
@@ -68,7 +68,7 @@ $(document).ready(function() {
             } else {
                 $('.go-top').fadeOut(200);
            }
-        });   
+        });
           // Animate the scroll to top
         $('.go-top').click(function(event) {
           event.preventDefault();
@@ -81,4 +81,3 @@ $(document).ready(function() {
   new WOW({ mobile: false }).init();
 
   });
-
