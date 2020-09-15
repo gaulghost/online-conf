@@ -367,6 +367,11 @@ a:hover, a:active, a:focus {
   background: #f0f0f0;
 }
 
+#about ul,
+#about p{
+  text-align: justify;
+}
+
 #about .item {
   width: 100%;
   display: block;
