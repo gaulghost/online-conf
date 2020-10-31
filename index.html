@@ -39,8 +39,9 @@
     <div class="container">
 
       <div class="navbar-header">
-        <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-          <span class="icon icon-bar"></span>
+        <button class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+		  <span class="sr-only">Toggle navigation</span>
+		  <span class="icon icon-bar"></span>
           <span class="icon icon-bar"></span>
           <span class="icon icon-bar"></span>
         </button>
@@ -49,8 +50,9 @@
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#top" class="smoothScroll"><span>Home</span></a></li>
-            <li class="dropdown">
-				<a href="iccsa.html" class="dropdown-toggle smoothScroll" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ICCSA-2020<span class="caret" style="display:inline-block;"></span></a>
+			<li><a href="iccsa-home.html" class="smoothScroll"><span>ICCSA-2020</span></a></li>
+            <!-- <li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ICCSA-2020<span class="caret" style="display:inline-block;"></span></a>
 				<ul class="dropdown-menu">
 					<li><a href="iccsa-home.html" class="smoothScroll"><span>Home</span></a></li>
 					<li><a href="iccsa-CallForPaper.html" class="smoothScroll"><span>Call for Paper</span></a></li>
@@ -60,7 +62,7 @@
 					<li><a href="iccsa-AcceptancePublication.html" class="smoothScroll"><span>Acceptance & Publication</span></a></li>
 					<li><a href="iccsa-ImportantDates.html" class="smoothScroll"><span>Important Dates</span></a></li>
 				</ul>
-			</li>
+			</li> -->
           </ul>
        </div>
 
@@ -225,6 +227,11 @@
 <script src="js/smoothscroll.js"></script>
 <script src="js/wow.min.js"></script>
 <script src="js/custom.js"></script>
+<script>
+    $(document).ready(function () {
+        $('.dropdown-toggle').dropdown();
+    });
+</script>
 
 </body>
 </html>

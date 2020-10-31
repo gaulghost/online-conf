@@ -219,6 +219,11 @@ a:hover, a:active, a:focus {
   margin-bottom: 0px !important;
 }
 
+.custom-nav .container{
+    width:100vw;
+    padding: 0 60px;
+}
+
 .navbar-default .navbar-brand {
   color: #304352;
   font-size: 28px;
