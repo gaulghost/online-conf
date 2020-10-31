@@ -219,11 +219,6 @@ a:hover, a:active, a:focus {
   margin-bottom: 0px !important;
 }
 
-.custom-nav .container{
-    width:100vw;
-    padding: 0 60px;
-}
-
 .navbar-default .navbar-brand {
   color: #304352;
   font-size: 28px;
@@ -316,6 +311,57 @@ a:hover, a:active, a:focus {
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
   background-color: transparent;
+}
+
+@media screen and (min-width: 1614px){
+    .custom-nav .container{
+        width:100vw;
+        padding: 0 10px;
+    }
+}
+
+/* @media (min-width: 1614px){
+
+    .custom-nav .navbar-collapse.collapse {
+        display: block!important;
+        height: auto!important;
+        padding-bottom: 0;
+        overflow: visible!important;
+    }
+
+    .custom-nav .navbar-fixed-bottom .navbar-collapse, .custom-nav .navbar-fixed-top .navbar-collapse, .custom-nav .navbar-static-top .navbar-collapse {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .custom-nav .navbar-right {
+        float: right!important;
+        margin-right: -15px;
+    }
+
+    .custom-nav .navbar-nav {
+        float: left;
+        margin: 0;
+    }
+
+    .custom-nav .navbar-toggle {
+        display: none;
+    }
+
+    .custom-nav .navbar-collapse {
+        width: auto;
+        border-top: 0;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+
+} */
+
+@media screen and (min-width: 1714px){
+    .custom-nav .container{
+        width:100vw;
+        padding: 0 60px;
+    }
 }
 
 @media screen and (max-width: 768px) {
