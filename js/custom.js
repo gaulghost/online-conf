@@ -17,15 +17,15 @@ $(document).ready(function() {
 
   /* Smoothscroll js
   -----------------------------------------------*/
-    $(function() {
-        $('.navbar-default a, #home a').bind('click', function(event) {
-            var $anchor = $(this);
-            $('html, body').stop().animate({
-                scrollTop: $($anchor.attr('href')).offset().top - 49
-            }, 1000);
-            event.preventDefault();
-        });
-    });
+  $(function() {
+      $('#home a').bind('click', function(event) {
+          var $anchor = $(this);
+          $('html, body').stop().animate({
+              scrollTop: $($anchor.attr('href')).offset().top - 49
+          }, 1000);
+          event.preventDefault();
+      });
+  });
 
 
  /* Home Slideshow Vegas
@@ -79,5 +79,6 @@ $(document).ready(function() {
   /* wow
   -------------------------------*/
   new WOW({ mobile: false }).init();
+
 
   });
