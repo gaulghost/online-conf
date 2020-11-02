@@ -264,7 +264,7 @@ footer {
 	-webkit-align-items: center;
 	-ms-flex-align: center;
 	align-items: center;
-	height: 80vh;
+	height: 90vh;
 	text-align: center
 }
 
@@ -277,7 +277,8 @@ footer {
 }
 
 #about {
-	background: #f0f0f0
+	background: #f0f0f0;
+	padding-top: 70px;
 }
 
 #about p,
