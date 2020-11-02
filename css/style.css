@@ -291,6 +291,10 @@ footer {
 	padding-top: 70px;
 }
 
+#about .pad{
+	padding-top: 100px;
+}
+
 #about p,
 #about ul {
 	text-align: justify
