@@ -252,10 +252,20 @@ footer {
 	}
 }
 
-#home {
+
+.homeimg{
 	background: url('../images/homeimg.jpg') 50% 0 no-repeat;
 	background-size: cover;
     background-position: center center;
+}
+
+.clgimg{
+	background: url('../images/clgimg.jpeg') 50% 0 no-repeat;
+	background-size: cover;
+    background-position: center center;
+}
+
+#home {
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: -ms-flexbox;
