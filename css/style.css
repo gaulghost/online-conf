@@ -154,6 +154,11 @@ footer {
 
 .navbar .brandimg {
 	padding-right: 4px;
+	width: 100px !important;
+}
+
+.navbar .brandimg1 {
+	padding-right: 4px;
 	width: 50px !important;
 }
 
@@ -182,14 +187,14 @@ footer {
 	color: #777;
 	font-size: 14px;
 	font-weight: 600;
-	letter-spacing: 1px;
+	letter-spacing: .85px;
 	text-transform: uppercase;
 	-webkit-transition: all .4s ease-in-out;
 	transition: all .4s ease-in-out;
 	padding-right: 22px;
 	padding-left: 22px
 }
-
+/*
 .custom-navbar .navbar-nav li a span {
 	position: relative;
 	display: block;
@@ -224,7 +229,7 @@ footer {
 	-ms-transform: scaleX(1);
 	-o-transform: scaleX(1);
 	transform: scaleX(1)
-}
+} */
 
 .custom-navbar .navbar-nav>li a:hover {
 	color: #304352!important
@@ -245,13 +250,12 @@ footer {
 .custom-navbar .navbar-toggle:hover {
 	background-color: transparent
 }
-
+/*
 @media screen and (max-width:768px) {
 	.custom-navbar .navbar-nav li a span:before {
 		background: 0 0!important
 	}
-}
-
+} */
 
 .homeimg{
 	background: url('../images/homeimg.jpg') 50% 0 no-repeat;
@@ -260,7 +264,20 @@ footer {
 }
 
 .clgimg{
-	background: url('../images/clgimg.jpeg') 50% 0 no-repeat;
+	background: url('../images/clgimg.png') 50% 0 no-repeat;
+	background-size: cover;
+    background-position: center center;
+}
+
+.ewce-img{
+	background: url('../images/ewce-img.jpeg') 50% 0 no-repeat;
+	background-size: cover;
+    background-position: center center;
+}
+
+
+.rjit-img{
+	background: url('../images/rjit-img.jpeg') 50% 0 no-repeat;
 	background-size: cover;
     background-position: center center;
 }
@@ -294,51 +311,6 @@ footer {
 #about .pad{
 	padding-top: 100px;
 }
-
-#about .abouttable{
-	display: inline-block;
-	margin-top: 100px;
-	border: .5px solid rgba(0, 0, 0, 0.3);
-	padding:15px;
-	border-radius: 15px;
-	color: rgba(0,0,0,0.8);
-	font-size: 16px;
-	font-weight: 400;
-	letter-spacing: 1px;
-	line-height: 24px;
-}
-#about .firsttable{
-	margin-right:.65vw;
-}
-
-@media (max-width:992px) {
-	#about .abouttable{
-		font-size: 18px;
-		width: 100%;
-	}
-}
-
-@media (min-width:1200px) {
-	#about .abouttable{
-		font-size: 18px;
-	}
-	#about .firsttable{
-		margin-right:5vw;
-	}
-}
-
-#about .abouttable th {
-	text-align: center;
-}
-
-#about .abouttable tr td,
-#about .abouttable tr th {
-	padding: 10px
-}
-#about .abouttable tr:nth-of-type(2n) {
-	background-color: rgba(0, 150, 136, .2)
-}
-
 
 #about p,
 #about ul {
@@ -379,6 +351,37 @@ footer {
 
 #about .blockmargin {
 	margin-top: 20px
+}
+
+#about .impdates {
+	border-collapse: separate;
+	margin-top: 10vh;
+	width: 100%;
+	border: 1px solid rgba(0,0,0,0.2);
+	border-radius: 20px;
+	color: rgba(0,0,0,0.8);
+	font-weight: 400;
+	font-size: 20px;
+	letter-spacing: 1px;
+	line-height: 34px;
+}
+
+#about .impdates th {
+	text-align: center;
+	border-bottom: 1px solid #000
+}
+
+#about .centrealign {
+	text-align: center
+}
+
+#about .impdates tr td,
+#about .impdates tr th {
+	padding: 10px
+}
+
+#about .impdates tr:nth-of-type(2n) {
+	background-color: rgba(0, 150, 136, .2)
 }
 
 #gallery {
